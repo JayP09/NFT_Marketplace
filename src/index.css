@@ -1,13 +1,27 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+@layer components{
+  .navbar-text{
+    @apply font-[Sora] font-semibold text-base tracking-wide not-italic leading-5
+  }
+  .text-small{
+    @apply font-[Inter] font-medium text-base uppercase text-[#7780A1]
+  }
+  .boxshadow{
+    box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+  }
+  .background-image{
+    background-image: url('/src/assets/Background.png');
+  }
+  .tabs{
+    @apply font-[Sora] font-semibold text-base text-[#7780A1] border-2 border-solid border-[#E2E2ED] rounded-lg px-2 py-1 m-2
+  }
+  .input-footer{
+    background: #FFFFFF;
+    box-shadow: 0px 25px 75px rgba(6, 7, 20, 0.1);
+    border-radius: 16px;
+  }
 }
