@@ -4,11 +4,11 @@ The NFT marketplace frontend was created using React and TailwindCSS. In this pr
 
 # Demo:
 
-<img src="./assets/nftmarketplace.png">
+<img src="./assets/image1.png">
 
-<img src="./assets/nftmarketplace1.png">
+<img src="./assets/image2.png">
 
-<img src="./assets/nftmarketplace2.png">
+<img src="./assets/image3.png">
 
 ### smartphone view
 <img src="./assets/smartphone.png">
